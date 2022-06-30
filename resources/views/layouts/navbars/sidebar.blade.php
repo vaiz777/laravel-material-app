@@ -41,8 +41,8 @@
           </ul>
         </div>
       </li> --}}
-      <li class="nav-item{{ $activePage == 'table' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('table') }}">
+      <li class="nav-item{{ $activePage == 'barang' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('barang.index') }}">
           <i class="material-icons">content_paste</i>
             <p>{{ __('Master Barang') }}</p>
         </a>
